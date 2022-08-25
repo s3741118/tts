@@ -25,7 +25,7 @@
 #     result = streamlit.write(mul(numA,numB))
 # elif operation == "/":
 #     result = streamlit.write(div(numA,numB))
-pip install gtts
+
 #web chuyen doi van ban thanh giong noi
 import streamlit
 from gtts import *
