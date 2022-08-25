@@ -41,4 +41,6 @@ def convertor():
     filename="voice.mp3"
     output.save(filename)
     playsound.playsound(filename)
-webButton=streamlit.button(label="save", on_click=convertor)
+
+d=convertor()
+webButton=streamlit.button(label="save", data=d)
